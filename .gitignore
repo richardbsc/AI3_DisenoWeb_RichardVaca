@@ -1,0 +1,22 @@
+
+# Archivos de configuración privada
+.env
+.env.*
+!.env.example
+
+# Registros de errores
+*.log
+logs/
+
+# Dependencias y archivos temporales
+vendor/
+tmp/
+temp/
+
+# Configuración del editor
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
