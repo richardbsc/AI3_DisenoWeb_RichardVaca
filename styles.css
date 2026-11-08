@@ -103,3 +103,61 @@ footer {
         padding: 18px;
     }
 }
+
+
+/* Listado de equipos */
+.lista-contenedor {
+    max-width: 1100px;
+}
+
+.enlace {
+    display: inline-block;
+    background: #3949ab;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.enlace:hover {
+    background: #283593;
+}
+
+.tabla-responsive {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    background: #3949ab;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background: #f3f5f9;
+}
+
+tbody tr:hover {
+    background: #e8eaf6;
+}
+
+@media (max-width: 600px) {
+    th, td {
+        padding: 8px;
+        font-size: 13px;
+    }
+}

@@ -26,6 +26,9 @@ unset($_SESSION["mensaje"], $_SESSION["error"]);
 <main class="contenedor">
     <section class="panel">
         <h2>Registrar nuevo equipo</h2>
+        <a href="listar.php" class="enlace">
+    Ver equipos registrados
+</a>
 
         <?php if ($mensaje): ?>
             <p class="exito">
